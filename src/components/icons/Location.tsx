@@ -1,17 +1,17 @@
 import { SVGProps } from "react";
 
-export function Location(props: SVGProps<SVGSVGElement>) {
+export function ReadMore(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="1.75em"
-      height="1.75em"
+      width="2em"
+      height="2em"
       viewBox="0 0 24 24"
       {...props}
     >
       <path
         fill="currentColor"
-        d="M12 12q.825 0 1.413-.588T14 10q0-.825-.588-1.413T12 8q-.825 0-1.413.588T10 10q0 .825.588 1.413T12 12Zm0 7.35q3.05-2.8 4.525-5.088T18 10.2q0-2.725-1.738-4.462T12 4Q9.475 4 7.737 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35ZM12 22q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2q3.175 0 5.588 2.225T20 10.2q0 2.5-1.988 5.438T12 22Zm0-12Z"
+        d="m7.45 17.45l-1.4-1.4L9.075 13H2v-2h7.075L6.05 7.95l1.4-1.4L12.9 12l-5.45 5.45ZM13 17v-2h9v2h-9Zm0-8V7h9v2h-9Zm3 4v-2h6v2h-6Z"
       ></path>
     </svg>
   );

@@ -1,5 +1,7 @@
 import ServiceCard from "@/components/ServiceCard";
+import Stats from "@/components/Stats";
 import About from "@/components/layouts/About";
+import Growth from "@/components/layouts/Growth";
 import { services } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,6 +34,7 @@ export default function Home() {
         />
       </div>
       <About />
+      <Growth />
       <div className="my-20">
         <h1 className="text-5xl font-bold text-center mb-14">Our Services</h1>
         <div className="flex flex-wrap justify-center gap-6 px-20">

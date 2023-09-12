@@ -19,7 +19,7 @@ export default function ServiceCard({ src, name }: ServiceCardType) {
           Discover
         </Link>
       </div>
-      <Image src={src} alt={name} width={300} height={300} />
+      <Image src={src} alt={name} width={300} height={300} className="object-fill"/>
     </div>
   );
 }
