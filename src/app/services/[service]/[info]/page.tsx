@@ -19,8 +19,8 @@ export default async function Info({ params }: { params: { info: string } }) {
         Step by step process
       </h1>
       <div className="flex flex-wrap justify-center gap-5">
-        {sth?.info.map((img: any) => (
-          <div className="max-w-[20rem] h-[20rem] aspect-square">
+        {sth?.info.map((img, index) => (
+          <div key={index} className="max-w-[20rem] h-[20rem] aspect-square">
             <Image
               src={img}
               alt=""

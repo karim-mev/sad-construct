@@ -1,20 +1,24 @@
 export const services = [
     {
+        id: 1,
         src: "/architec.jpg",
         name: "Mechanics Drawing",
     },
 
     {
+        id: 2,
         src: "/safety.webp",
         name: "Architectular",
     },
 
     {
+        id: 3,
         src: "/elect.jpg",
         name: "Electrical",
     },
 
     {
+        id: 4,
         src: "/final.webp",
         name: "Plumbing",
     },
