@@ -18,18 +18,29 @@ export default async function Info({ params }: { params: { info: string } }) {
       <h1 className="text-3xl font-semibold text-center underline mb-20">
         Step by step process
       </h1>
-      <div className="flex flex-wrap justify-center gap-5">
-        {sth?.info.map((img, index) => (
-          <div key={index} className="max-w-[20rem] h-[20rem] aspect-square">
-            <Image
-              src={img}
-              alt=""
-              loading="lazy"
-              fill
-              className="!relative object-cover"
-            />
+      <div className="">
+      {sth?.info.map((content: any, index) => (
+        <div key={index} className="">
+          {" "}
+          {/* Wrap the content in a <div> */}
+          <h2 className="text-3xl font-semibold text-center my-10">
+            {content.title}
+          </h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            {content.steps?.map((step: any) => (
+              <div key={step} className="max-w-[20rem] h-[20rem] aspect-square">
+                <Image
+                  src={step}
+                  alt=""
+                  loading="lazy"
+                  fill
+                  className="!relative object-cover"
+                />
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
+      ))}
       </div>
     </div>
   );
