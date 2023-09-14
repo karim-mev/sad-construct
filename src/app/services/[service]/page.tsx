@@ -39,7 +39,7 @@ export default function Services({ params }: { params: { service: string } }) {
         </div>
         <div className="flex gap-2 items-center">
           <ReadMore />
-          <Link href={`http://localhost:3000/services/sth/data/${params.service}`}>
+          <Link href={`https://sad-construct.vercel.app/services/sth/data/${params.service}`}>
             Interested in what we do?{" "}
             <span className="underline text-blue-500">Learn more</span>
           </Link>
