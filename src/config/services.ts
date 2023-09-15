@@ -2,31 +2,31 @@ export const services = [
   {
     id: 1,
     src: "/architec.jpg",
-    name: "Mechanical",
+    name: "Architectural",
   },
 
   {
     id: 2,
     src: "/safety.webp",
-    name: "Electrical",
+    name: "Mechanical",
   },
 
   {
     id: 3,
     src: "/elect.jpg",
-    name: "Civil",
+    name: "Electrical",
   },
 
   {
     id: 4,
     src: "/final.webp",
-    name: "Plumbing",
+    name: "Civil",
   },
 ];
 
 export const servicesInfo = [
   {
-    id: "mechanical",
+    id: "architectural",
     info: [
       {
         title: "Flooring Tiles",
@@ -45,36 +45,85 @@ export const servicesInfo = [
           "/structure/f6.jpg",
           "/structure/f7.jpg",
           "/structure/f8.jpg",
+          "/structure/f9.jpg",
         ],
       },
 
       {
         title: "Adding Epoxy",
         steps: [
-          "/structure/f9.jpg",
           "/structure/f10.jpg",
           "/structure/f11.jpg",
           "/structure/f12.jpg",
-        ],
-      },
-
-      {
-        title: "Block and Gypsum board cement board",
-        steps: [
           "/structure/f13.jpg",
           "/structure/f14.jpg",
-          "/structure/f15.jpg",
-          "/structure/f16.jpg",
         ],
       },
 
       {
-        title: "Glass facade and door",
+        title: "Pumice Block",
+        steps: ["/structure/f15.jpg", "/structure/f16.jpg"],
+      },
+
+      {
+        title: "Cement Board",
+        steps: ["/structure/f17.jpg", "/structure/f18.jpg"],
+      },
+
+      {
+        title: "Glass Fascade and Doors",
         steps: [
-          "/structure/f17.jpg",
-          "/structure/f18.jpg",
           "/structure/f19.jpg",
           "/structure/f20.jpg",
+          "/structure/f21.jpg",
+          "/structure/f22.jpg",
+          "/structure/f23.jpg",
+          "/structure/f24.jpg",
+        ],
+      },
+
+      {
+        title: "Expansion Joint",
+        steps: [
+          "/structure/f25.jpg",
+          "/structure/f26.jpg",
+          "/structure/f29.jpg",
+          "/structure/f30.jpg",
+        ],
+      },
+
+      {
+        title: "Painting",
+        steps: [
+          "/structure/f31.jpg",
+          "/structure/f32.jpg",
+          "/structure/f33.jpg",
+          "/structure/f34.jpg",
+        ],
+      },
+
+      {
+        title: "Armstrong Ceiling",
+        steps: [
+          "/structure/f36.jpg",
+          "/structure/f37.jpg",
+          "/structure/f38.jpg",
+          "/structure/f39.jpg",
+        ],
+      },
+
+      {
+        title: "Stainless Steel Protection",
+        steps: [
+          "/structure/f41.jpg",
+          "/structure/f42.jpg",
+          "/structure/f43.jpg",
+          "/structure/f44.jpg",
+          "/structure/f45.jpg",
+          "/structure/f46.jpg",
+          "/structure/f47.jpg",
+          "/structure/f48.jpg",
+          "/structure/f49.jpg",
         ],
       },
     ],
@@ -158,6 +207,87 @@ export const servicesInfo = [
           "/electric/e41.jpg",
         ],
       },
+    ],
+  },
+
+  {
+    id: "mechanical",
+    info: [
+      {
+        title: "Drainage System",
+        steps: [
+          "/mechanic/m.jpg",
+          "/mechanic/m2.jpg",
+          "/mechanic/m3.jpg",
+          "/mechanic/m4.jpg",
+          "/mechanic/m5.jpg",
+          "/mechanic/m6.jpg",
+        ],
+      },
+
+      {
+        title: "Water Supply System",
+        steps: [
+          "/mechanic/m7.jpg",
+          "/mechanic/m8.jpg",
+          "/mechanic/m9.jpg",
+          "/mechanic/m10.jpg",
+          "/mechanic/m11.jpg",
+          "/mechanic/m12.jpg",
+          "/mechanic/m13.jpg",
+        ],
+      },
+
+      {
+        title: "HVAC System",
+        steps: [
+          "/mechanic/m15.jpg",
+          "/mechanic/m16.jpg",
+          "/mechanic/m17.jpg",
+          "/mechanic/m18.jpg",
+          "/mechanic/m19.jpg",
+          "/mechanic/m20.jpg",
+          "/mechanic/m21.jpg",
+          "/mechanic/m22.jpg",
+          "/mechanic/m23.jpg",
+          "/mechanic/m24.jpg",
+        ],
+      },
+
+      {
+        title: "Vanilation System",
+        steps: [
+          "/mechanic/m25.jpg",
+          "/mechanic/m26.jpg",
+          "/mechanic/m27.jpg",
+          "/mechanic/m28.jpg",
+          "/mechanic/m29.jpg",
+          "/mechanic/m30.jpg",
+        ],
+      },
+
+      {
+        title: "Fire Fighting System",
+        steps: [
+          "/mechanic/m31.jpg",
+          "/mechanic/m32.jpg",
+          "/mechanic/m33.jpg",
+          "/mechanic/m34.jpg",
+          "/mechanic/m35.jpg",
+          "/mechanic/m36.jpg",
+          "/mechanic/m37.jpg",
+          "/mechanic/m38.jpg",
+          "/mechanic/m39.jpg",
+          "/mechanic/m40.jpg",
+          "/mechanic/m41.jpg",
+          "/mechanic/m42.jpg",
+          "/mechanic/m43.jpg",
+          "/mechanic/m44.jpg",
+          "/mechanic/m45.jpg",
+          "/mechanic/m46.jpg",
+        ],
+      },
+
     ],
   },
 ];

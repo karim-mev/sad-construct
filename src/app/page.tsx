@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="relative">
-        <div className="absolute bg-blue-200 bg-opacity-30 flex flex-wrap items- justify-between gap-5 px-10 md:px-40 w-full h-full">
+        <div className="absolute bg- bg-opacity-30 flex flex-wrap items- justify-between gap-5 px-10 md:px-40 w-full h-full">
           {" "}
           <div className="flex flex-col items-start justify-center gap-4">
             <h1 className="text-3xl md:text-7xl text-gray-900 font-extrabold max-w-[25rem] !leading-snug">
@@ -28,14 +28,14 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center">
-          <Image src="/sadeem-svg.svg" alt="" width={300} height={300} />
+          <Image src="/sadeem.svg" alt="" width={300} height={300} />
 
             <Image src="/ro2ya.png" alt="" width={400} height={400} />
           </div>
         </div>
         <Image
-          src="/construction.jpg"
-          alt="header"
+          src="/.jpg"
+          alt=""
           width={1000}
           height={1000}
           className="w-full h-screen"
