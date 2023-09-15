@@ -41,9 +41,8 @@ export default function Home() {
           className="w-full h-screen"
         />
       </div>
-      <About />
-      <Growth />
       <Saftey />
+      <Growth />
       <div className="my-20">
         <h1 className="text-5xl font-bold text-center mb-14">Our Services</h1>
         <div className="flex flex-wrap justify-center gap-6 px-20">
@@ -56,6 +55,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <About />
     </main>
   );
 }

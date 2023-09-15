@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Saftey() {
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap bg-gray-100">
       <div className="flex flex-col gap-10 w-full lg:w-1/2 px-10 py-20">
         <h1 className="text-5xl text-neutral-700 font-bold">
           Construction Safety:
