@@ -39,7 +39,7 @@ export const servicesInfo = [
       },
 
       {
-        title: "Adding Parquet",
+        title: "Parquet",
         steps: [
           "/structure/f5.jpg",
           "/structure/f6.jpg",
@@ -50,7 +50,7 @@ export const servicesInfo = [
       },
 
       {
-        title: "Adding Epoxy",
+        title: "Epoxy",
         steps: [
           "/structure/f10.jpg",
           "/structure/f11.jpg",
