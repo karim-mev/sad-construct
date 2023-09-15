@@ -1,5 +1,11 @@
 export const services = [
   {
+    id: 4,
+    src: "/final.webp",
+    name: "Civil",
+  },
+
+  {
     id: 1,
     src: "/architec.jpg",
     name: "Architectural",
@@ -16,11 +22,32 @@ export const services = [
     src: "/elect.jpg",
     name: "Electrical",
   },
+];
+
+export const info = [
 
   {
-    id: 4,
-    src: "/final.webp",
-    name: "Civil",
+    id: "civil",
+    src: "/civil-sec.jpg",
+    text: "Civil",
+  },
+
+  {
+    id: "architectural",
+    src: "/arch-sec.jpg",
+    text: "Architectural",
+  },
+  
+  {
+    id: "mechanical",
+    src: "/mech-sec.jpg",
+    text: "Mechanical",
+  },
+
+  {
+    id: "electrical",
+    src: "/elect-sec.jpg",
+    text: "Electrical",
   },
 ];
 

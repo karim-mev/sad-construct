@@ -1,10 +1,13 @@
 import { Arrow } from "@/components/icons/Arrow";
 import { ReadMore } from "@/components/icons/Location";
 import { Phone } from "@/components/icons/Phone";
+import { info } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Services({ params }: { params: { service: string } }) {
+  const sth = info.find((service) => service.id == params.service);
+
   return (
     <div className="px-10 md:px-36 py-20 min-h-screen">
       <div className="mb-10">
@@ -17,19 +20,12 @@ export default function Services({ params }: { params: { service: string } }) {
       </div>
       <div className="flex flex-col md:flex-row items-center md:justify-between gap-4 mb-20">
         <div className="w-full md:w-1/2">
-          <Image src="/service1.jpg" alt="service" width={500} height={500} />
+          <Image src={sth ? sth.src : ""} alt="service" width={500} height={500} />
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-2">
           <h2 className="text-3xl font-extrabold">About Work</h2>
           <p className="text-gray-600 font-medium leading-7">
-            Our skilled team at Sadeem Construction takes immense pride in
-            precision and craftsmanship when it comes to laying floors and
-            blocks. Whether it is a residential project or a commercial one, we
-            use state-of-the-art techniques and top-quality materials to ensure
-            durability and perfection. From elegant tile flooring to robust
-            concrete block walls, we turn your vision into a solid reality. Your
-            satisfaction is our priority, and we are committed to delivering
-            projects that stand the test of time.
+            {sth?.text}
           </p>
         </div>
       </div>
