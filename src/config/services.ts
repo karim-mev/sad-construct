@@ -66,8 +66,14 @@ export const servicesInfo = [
       },
 
       {
-        title: "Cement Board",
-        steps: ["/structure/f17.jpg", "/structure/f18.jpg"],
+        title: "Cement and Gypsum Board",
+        steps: [
+          "/structure/f17.jpg",
+          "/structure/f18.jpg",
+          "/structure/f50.jpg",
+          "/structure/f51.jpg",
+          "/structure/f52.jpg",
+        ],
       },
 
       {
@@ -79,6 +85,8 @@ export const servicesInfo = [
           "/structure/f22.jpg",
           "/structure/f23.jpg",
           "/structure/f24.jpg",
+          "/structure/f48.jpg",
+          "/structure/f49.jpg",
         ],
       },
 
@@ -99,13 +107,13 @@ export const servicesInfo = [
           "/structure/f32.jpg",
           "/structure/f33.jpg",
           "/structure/f34.jpg",
+          "/structure/f36.jpg",
         ],
       },
 
       {
         title: "Armstrong Ceiling",
         steps: [
-          "/structure/f36.jpg",
           "/structure/f37.jpg",
           "/structure/f38.jpg",
           "/structure/f39.jpg",
@@ -122,8 +130,6 @@ export const servicesInfo = [
           "/structure/f45.jpg",
           "/structure/f46.jpg",
           "/structure/f47.jpg",
-          "/structure/f48.jpg",
-          "/structure/f49.jpg",
         ],
       },
     ],
@@ -287,7 +293,6 @@ export const servicesInfo = [
           "/mechanic/m46.jpg",
         ],
       },
-
     ],
   },
 ];
