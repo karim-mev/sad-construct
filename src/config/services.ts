@@ -73,6 +73,7 @@ export const servicesInfo = [
           "/structure/f50.jpg",
           "/structure/f51.jpg",
           "/structure/f52.jpg",
+          "/structure/f30.jpg",
         ],
       },
 
@@ -96,7 +97,6 @@ export const servicesInfo = [
           "/structure/f25.jpg",
           "/structure/f26.jpg",
           "/structure/f29.jpg",
-          "/structure/f30.jpg",
         ],
       },
 
@@ -132,6 +132,16 @@ export const servicesInfo = [
           "/structure/f47.jpg",
         ],
       },
+
+      {
+        title: "Metal Door Fire Rated",
+        steps: [
+          "/structure/f53.jpg",
+          "/structure/f54.jpg",
+          "/structure/f55.jpg",
+        ],
+      },
+
     ],
   },
 
@@ -145,13 +155,13 @@ export const servicesInfo = [
           "/electric/e2.jpg",
           "/electric/e3.jpg",
           "/electric/e4.jpg",
+          "/electric/e5.jpg",
         ],
       },
 
       {
         title: "Power (DB) (SDB)",
         steps: [
-          "/electric/e5.jpg",
           "/electric/e6.jpg",
           "/electric/e7.jpg",
           "/electric/e8.jpg",
@@ -175,7 +185,7 @@ export const servicesInfo = [
       },
 
       {
-        title: "Cameras",
+        title: "CCTV",
         steps: [
           "/electric/e19.jpg",
           "/electric/e20.jpg",
