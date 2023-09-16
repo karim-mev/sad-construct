@@ -24,8 +24,19 @@ export default function Saftey() {
           timely and successful completion of construction endeavors.
         </h4>
       </div>
-      <div className="relative flex-1 w-full hidden lg:block aspect-video">
-        <Image src="/safety1.jpg" alt="" fill objectFit="cover" />
+      <div className="relative flex-1 w-full hidden lg:flex flex-wrap aspect-video">
+          <div className="relative w-1/2 h-1/2">
+            <Image src="/safety1.jpg" alt="" fill objectFit="cover" />
+          </div>
+          <div className="relative w-1/2 h-1/2">
+            <Image src="/safety3.jpg" alt="" fill objectFit="cover" />
+          </div>
+          <div className="relative w-1/2 h-1/2">
+            <Image src="/safety4.jpg" alt="" fill objectFit="cover" />
+          </div>
+          <div className="relative w-1/2 h-1/2">
+            <Image src="/safety5.jpg" alt="" fill objectFit="cover" />
+          </div>
       </div>
     </div>
   );

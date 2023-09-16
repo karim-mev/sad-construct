@@ -105,7 +105,7 @@ export const servicesInfo = [
       },
 
       {
-        title: "Glass Fascade and Doors",
+        title: "Glass Fascade & Sliding Door",
         steps: [
           "/structure/f19.jpg",
           "/structure/f20.jpg",

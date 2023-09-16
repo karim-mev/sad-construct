@@ -14,15 +14,15 @@ export default function Home() {
         <div className="absolute bg- bg-opacity-30 flex flex-wrap items- justify-between gap-5 px-10 md:px-40 w-full h-full">
           {" "}
           <div className="flex flex-col items-start justify-center gap-4">
-            <h1 className="text-3xl md:text-7xl text-gray-900 font-extrabold max-w-[25rem] !leading-snug">
+            <h1 className="text-3xl md:text-7xl text-[#1F1D8B] font-extrabold max-w-[25rem] !leading-snug">
               DREAM IT WE BUILD
             </h1>
-            <h3 className="text-lg font-medium text-gray-900">
+            <h3 className="text-lg font-medium text-[#1F1D8B]">
               Construction made for the ever evolving world
             </h3>
             <Link
               href="/"
-              className="text-sm text-gray-900 font-semibold border-2 border-gray-900 px-8 py-3 mt-2 hover:bg-gray-900 hover:text-white transition-all"
+              className="text-sm text-[#1F1D8B] font-semibold border-2 border-[#1F1D8B] px-8 py-3 mt-2 hover:bg-[#1F1D8B] hover:text-white transition-all"
             >
               Learn more
             </Link>
