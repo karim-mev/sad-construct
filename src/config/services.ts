@@ -51,6 +51,43 @@ export const info = [
   },
 ];
 
+export const companies = [
+  "/companies/c1.jpg",
+  "/companies/c2.jpg",
+  "/companies/c3.jpg",
+  "/companies/c4.jpg",
+  "/companies/c5.jpg",
+  "/companies/c6.jpg",
+  "/companies/c7.jpg",
+  "/companies/c8.jpg",
+  "/companies/c9.jpg",
+  "/companies/c10.jpg",
+  "/companies/c11.jpg",
+  "/companies/c12.jpg",
+  "/companies/c13.jpg",
+  "/companies/c14.jpg",
+  "/companies/c15.jpg",
+  "/companies/c16.jpg",
+  "/companies/c17.jpg",
+  "/companies/c18.jpg",
+  "/companies/c19.jpg",
+  "/companies/c20.jpg",
+  "/companies/c21.jpg",
+  "/companies/c22.jpg",
+  "/companies/c23.jpg",
+  "/companies/c24.jpg",
+  "/companies/c25.jpg",
+  "/companies/c26.jpg",
+  "/companies/c27.jpg",
+  "/companies/c28.jpg",
+  "/companies/c29.jpg",
+  "/companies/c30.jpg",
+  "/companies/c31.jpg",
+  "/companies/c32.jpg",
+  "/companies/c33.jpg",
+  "/companies/c34.jpg",
+]
+
 export const servicesInfo = [
   {
     id: "architectural",

@@ -1,9 +1,11 @@
+import Companies from "@/components/Companies";
 import Saftey from "@/components/Saftey";
 import ServiceCard from "@/components/ServiceCard";
 import Stats from "@/components/Stats";
 import About from "@/components/layouts/About";
 import Growth from "@/components/layouts/Growth";
-import { services } from "@/config/services";
+import Slider from "@/components/layouts/Slider";
+import { companies, services } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -28,7 +30,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center">
-          <Image src="/sadeem.svg" alt="" width={300} height={300} />
+            <Image src="/sadeem.svg" alt="" width={300} height={300} />
 
             <Image src="/ro2ya.png" alt="" width={400} height={400} />
           </div>
@@ -55,6 +57,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <Slider/>
       <About />
     </main>
   );
