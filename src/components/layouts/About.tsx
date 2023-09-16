@@ -11,10 +11,14 @@ export default function About() {
             Our Vision 
           </h2> */}
           <h3 className="text-gray-900 font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-            dolorem iusto quos quia nihil quod atque voluptatem velit,
-            voluptates, nemo ad praesentium quidem aspernatur! Unde. voluptatem
-            velit, voluptates, nemo ad praesentium quidem aspernatur! Unde.
+            At Sadeem, we are passionate about building a better future. With
+            expertise in civil, architectural, mechanical, and electrical
+            construction, we are dedicated to delivering top-notch solutions
+            that stand the test of time. Our commitment to quality
+            craftsmanship, innovation, and safety is at the core of everything
+            we do. We take pride in our experienced team, cutting-edge
+            technology, and a track record of successfully bringing
+            architectural visions to life.
           </h3>
         </div>
         <div>
@@ -22,20 +26,27 @@ export default function About() {
             Our mission
           </h2> */}
           <h3 className="text-gray-900 font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-            dolorem iusto quos quia nihil quod atque voluptatem velit,
-            voluptates, nemo ad praesentium quidem aspernatur! Unde.
+            Whether it's designing iconic structures, renovation of any kind, maintenance or  ensuring the seamless
+            integration of mechanical and electrical systems, we approach each
+            project with precision and dedication. Sadeem is your trusted
+            partner in construction excellence.
           </h3>
         </div>
         <Link
-        href="/"
-        className="text-base text-slate-800 font-semibold border-2 border-slate-800 px-8 py-3 mt-2 hover:bg-slate-800 hover:text-white transition-all"
-      >
-        Our Services
-      </Link>
+          href="/"
+          className="text-base text-slate-800 font-semibold border-2 border-slate-800 px-8 py-3 mt-2 hover:bg-slate-800 hover:text-white transition-all"
+        >
+          Our Services
+        </Link>
       </div>
       <div className="flex-1 hidden lg:block my-auto">
-        <Image src="/about.jpg" alt="about us" width={1000} height={500} className="min-w-full"/>
+        <Image
+          src="/about.jpg"
+          alt="about us"
+          width={1000}
+          height={500}
+          className="min-w-full"
+        />
       </div>
     </div>
   );

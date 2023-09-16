@@ -35,19 +35,19 @@ export const info = [
   {
     id: "architectural",
     src: "/arch-sec.jpg",
-    text: "Architectural",
+    text: "Our architectural prowess extends to a diverse range of elements that shape spaces with both aesthetics and functionality in mind. From the artistry of parquet flooring and the contemporary appeal of epoxy finishes to the structural integrity of pumice block construction, we excel in crafting architectural solutions that stand out. Our expertise extends to cement and gypsum board installations, providing the foundation for versatile interior designs. We also specialize in creating inviting spaces with glass facades and sliding doors that embrace natural light. Additionally, our attention to detail ensures the reliability of expansion joints for structural stability. With a commitment to innovation and quality, we elevate every architectural project to new heights.",
   },
   
   {
     id: "mechanical",
     src: "/mech-sec.jpg",
-    text: "Mechanical",
+    text: "Our mechanical prowess extends to a comprehensive range of systems that ensure the comfort, safety, and functionality of every structure. Our expertise in drainage systems ensures efficient water management, preventing flooding and water damage. We design and implement robust water supply systems, providing a reliable source of clean water for residential, commercial, and industrial needs. Our HVAC systems offer precise temperature control, optimizing energy efficiency and indoor air quality. We prioritize ventilation systems that ensure fresh, healthy air circulation in every space. Safety is paramount, and our fire fighting systems are designed to protect life and property. With a commitment to excellence, we engineer and install mechanical systems that contribute to the success and well-being of your projects.",
   },
 
   {
     id: "electrical",
     src: "/elect-sec.jpg",
-    text: "Electrical",
+    text: "Our electrical solutions encompass a wide spectrum of technologies and systems that illuminate, empower, and secure your spaces. We specialize in crafting innovative lighting systems that set the mood, enhance productivity, and conserve energy. Our expertise extends to power distribution systems, including main distribution boards (DB) and sub-distribution boards (SDB), ensuring a stable and efficient electrical infrastructure. We design robust network systems that keep you connected seamlessly, while our CCTV solutions offer comprehensive security and surveillance. Safety is a top priority, and our fire alarm systems provide early detection and rapid response capabilities. Additionally, our access door systems grant you control and security over entry points, promoting a safe and controlled environment. With a dedication to cutting-edge technology and reliability, we electrify your projects with excellence.",
   },
 ];
 
@@ -142,7 +142,7 @@ export const servicesInfo = [
       },
 
       {
-        title: "Glass Fascade & Sliding Door",
+        title: "Glass Façade & Sliding Door",
         steps: [
           "/structure/f19.jpg",
           "/structure/f20.jpg",
@@ -213,7 +213,7 @@ export const servicesInfo = [
     id: "electrical",
     info: [
       {
-        title: "Installing Lights",
+        title: "Lighting System",
         steps: [
           "/electric/e1.jpg",
           "/electric/e2.jpg",
@@ -335,7 +335,7 @@ export const servicesInfo = [
       },
 
       {
-        title: "Vanilation System",
+        title: "Vantilation System",
         steps: [
           "/mechanic/m25.jpg",
           "/mechanic/m26.jpg",
