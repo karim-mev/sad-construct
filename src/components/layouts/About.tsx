@@ -26,7 +26,7 @@ export default function About() {
             Our mission
           </h2> */}
           <h3 className="text-gray-900 font-light">
-            Whether it's designing iconic structures, renovation of any kind, maintenance or  ensuring the seamless
+            Whether it is designing iconic structures, renovation of any kind, maintenance or  ensuring the seamless
             integration of mechanical and electrical systems, we approach each
             project with precision and dedication. Sadeem is your trusted
             partner in construction excellence.
