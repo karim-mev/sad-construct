@@ -25,7 +25,6 @@ export const services = [
 ];
 
 export const info = [
-
   {
     id: "civil",
     src: "/civil-sec.jpg",
@@ -37,7 +36,7 @@ export const info = [
     src: "/arch-sec.jpg",
     text: "Our architectural prowess extends to a diverse range of elements that shape spaces with both aesthetics and functionality in mind. From the artistry of parquet flooring and the contemporary appeal of epoxy finishes to the structural integrity of pumice block construction, we excel in crafting architectural solutions that stand out. Our expertise extends to cement and gypsum board installations, providing the foundation for versatile interior designs. We also specialize in creating inviting spaces with glass facades and sliding doors that embrace natural light. Additionally, our attention to detail ensures the reliability of expansion joints for structural stability. With a commitment to innovation and quality, we elevate every architectural project to new heights.",
   },
-  
+
   {
     id: "mechanical",
     src: "/mech-sec.jpg",
@@ -86,9 +85,71 @@ export const companies = [
   "/companies/c32.jpg",
   "/companies/c33.jpg",
   "/companies/c34.jpg",
-]
+  "/companies/c35.jpg",
+  "/companies/c36.jpg",
+];
 
 export const servicesInfo = [
+  {
+    id: "civil",
+    info: [
+      {
+        title: "",
+        steps: [
+          "/civil/a1.jpg",
+          "/civil/a2.jpg",
+          "/civil/a3.jpg",
+          "/civil/a4.jpg",
+          "/civil/a5.jpg",
+          "/civil/a6.jpg",
+          "/civil/a7.jpg",
+          "/civil/a8.jpg",
+          "/civil/a9.jpg",
+          "/civil/a10.jpg",
+          "/civil/a11.jpg",
+          "/civil/a12.jpg",
+          "/civil/a13.jpg",
+          "/civil/a14.jpg",
+          "/civil/a15.jpg",
+          "/civil/a16.jpg",
+          "/civil/a17.jpg",
+          "/civil/a18.jpg",
+          "/civil/a19.jpg",
+          "/civil/a20.jpg",
+          "/civil/a21.jpg",
+          "/civil/a22.jpg",
+          "/civil/a23.jpg",
+          "/civil/a24.jpg",
+          "/civil/a25.jpg",
+          "/civil/a26.jpg",
+          "/civil/a27.jpg",
+          "/civil/a28.jpg",
+          "/civil/a29.jpg",
+          "/civil/a30.jpg",
+          "/civil/a31.jpg",
+          "/civil/a32.jpg",
+          "/civil/a33.jpg",
+          "/civil/a34.jpg",
+          "/civil/a35.jpg",
+          "/civil/a36.jpg",
+          "/civil/a37.jpg",
+          "/civil/a38.jpg",
+          "/civil/a39.jpg",
+          "/civil/a40.jpg",
+          "/civil/a41.jpg",
+          "/civil/a42.jpg",
+          "/civil/a43.jpg",
+          "/civil/a44.jpg",
+          "/civil/a45.jpg",
+          "/civil/a46.jpg",
+          "/civil/a47.jpg",
+          "/civil/a48.jpg",
+          "/civil/a49.jpg",
+          "/civil/a50.jpg",
+        ],
+      },
+    ],
+  },
   {
     id: "architectural",
     info: [
@@ -126,7 +187,16 @@ export const servicesInfo = [
 
       {
         title: "Pumice Block",
-        steps: ["/structure/f15.jpg", "/structure/f16.jpg"],
+        steps: [
+          "/structure/f15.jpg",
+          "/structure/f16.jpg",
+          "/structure/f56.jpg",
+          "/structure/f57.jpg",
+          "/structure/f58.jpg",
+          "/structure/f59.jpg",
+          "/structure/f60.jpg",
+          "/structure/f61.jpg",
+        ],
       },
 
       {
@@ -138,6 +208,8 @@ export const servicesInfo = [
           "/structure/f51.jpg",
           "/structure/f52.jpg",
           "/structure/f30.jpg",
+          "/structure/f62.jpg",
+          "/structure/f63.jpg",
         ],
       },
 
@@ -205,7 +277,6 @@ export const servicesInfo = [
           "/structure/f55.jpg",
         ],
       },
-
     ],
   },
 
@@ -285,6 +356,18 @@ export const servicesInfo = [
           "/electric/e39.jpg",
           "/electric/e40.jpg",
           "/electric/e41.jpg",
+        ],
+      },
+
+      {
+        title: "SDP MDP",
+        steps: [
+          "/electric/e42.jpg",
+          "/electric/e43.jpg",
+          "/electric/e44.jpg",
+          "/electric/e45.jpg",
+          "/electric/e46.jpg",
+          "/electric/e47.jpg",
         ],
       },
     ],
