@@ -22,12 +22,12 @@ export default function Home() {
             <h3 className="text-lg font-medium text-[#1F1D8B]">
               Construction made for the ever evolving world
             </h3>
-            <Link
+            {/* <Link
               href="/"
               className="text-sm text-[#1F1D8B] font-semibold border-2 border-[#1F1D8B] px-8 py-3 mt-2 hover:bg-[#1F1D8B] hover:text-white transition-all"
             >
               Learn more
-            </Link>
+            </Link> */}
           </div>
           <div className="flex flex-col items-center justify-center">
             <Image src="/sadeem.svg" alt="" width={300} height={300} />
