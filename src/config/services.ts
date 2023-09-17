@@ -188,8 +188,6 @@ export const servicesInfo = [
       {
         title: "Pumice Block",
         steps: [
-          "/structure/f15.jpg",
-          "/structure/f16.jpg",
           "/structure/f56.jpg",
           "/structure/f57.jpg",
           "/structure/f58.jpg",
@@ -217,7 +215,6 @@ export const servicesInfo = [
         title: "Glass Façade & Sliding Door",
         steps: [
           "/structure/f19.jpg",
-          "/structure/f20.jpg",
           "/structure/f21.jpg",
           "/structure/f22.jpg",
           "/structure/f23.jpg",
@@ -243,7 +240,7 @@ export const servicesInfo = [
           "/structure/f32.jpg",
           "/structure/f33.jpg",
           "/structure/f34.jpg",
-          "/structure/f36.jpg",
+          // "/structure/f36.jpg",
         ],
       },
 
@@ -260,7 +257,6 @@ export const servicesInfo = [
         title: "Stainless Steel Protection",
         steps: [
           "/structure/f41.jpg",
-          "/structure/f42.jpg",
           "/structure/f43.jpg",
           "/structure/f44.jpg",
           "/structure/f45.jpg",
@@ -295,9 +291,8 @@ export const servicesInfo = [
       },
 
       {
-        title: "Power (DB) (SDB)",
+        title: "Power (DB) (SDB) (MDP)",
         steps: [
-          "/electric/e6.jpg",
           "/electric/e7.jpg",
           "/electric/e8.jpg",
           "/electric/e9.jpg",
@@ -306,6 +301,12 @@ export const servicesInfo = [
           "/electric/e12.jpg",
           "/electric/e13.jpg",
           "/electric/e14.jpg",
+          "/electric/e42.jpg",
+          "/electric/e43.jpg",
+          "/electric/e44.jpg",
+          "/electric/e45.jpg",
+          "/electric/e46.jpg",
+          "/electric/e47.jpg",
         ],
       },
 
@@ -334,7 +335,6 @@ export const servicesInfo = [
           "/electric/e28.jpg",
           "/electric/e29.jpg",
           "/electric/e30.jpg",
-          "/electric/e32.jpg",
           "/electric/e33.jpg",
         ],
       },
@@ -356,18 +356,6 @@ export const servicesInfo = [
           "/electric/e39.jpg",
           "/electric/e40.jpg",
           "/electric/e41.jpg",
-        ],
-      },
-
-      {
-        title: "SDP MDP",
-        steps: [
-          "/electric/e42.jpg",
-          "/electric/e43.jpg",
-          "/electric/e44.jpg",
-          "/electric/e45.jpg",
-          "/electric/e46.jpg",
-          "/electric/e47.jpg",
         ],
       },
     ],
@@ -394,7 +382,6 @@ export const servicesInfo = [
           "/mechanic/m7.jpg",
           "/mechanic/m8.jpg",
           "/mechanic/m9.jpg",
-          "/mechanic/m10.jpg",
           "/mechanic/m11.jpg",
           "/mechanic/m12.jpg",
           "/mechanic/m13.jpg",
