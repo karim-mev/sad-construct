@@ -282,10 +282,23 @@ export const servicesInfo = [
           "/structure/f64.jpg",
           "/structure/f65.jpg",
           "/structure/f66.jpg",
-          "/structure/f66.jpg",
           "/structure/f67.jpg",
           "/structure/f68.jpg",
           "/structure/f69.jpg",
+          "/structure/f70.jpg",
+          "/structure/f71.jpg",
+          "/structure/f72.jpg",
+          "/structure/f73.jpg",
+          "/structure/f74.jpg",
+          "/structure/f75.jpg",
+          "/structure/f76.jpg",
+        ],
+      },
+
+      {
+        title:
+          "Dock Leveler, Road Barrier, Road blockers, Hydraulic Bollard",
+        steps: [
           "/structure/f70.jpg",
           "/structure/f71.jpg",
           "/structure/f72.jpg",

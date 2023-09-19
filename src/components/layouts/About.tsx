@@ -32,12 +32,12 @@ export default function About() {
             partner in construction excellence.
           </h3>
         </div>
-        <Link
+        {/* <Link
           href="/"
           className="text-base text-slate-800 font-semibold border-2 border-slate-800 px-8 py-3 mt-2 hover:bg-slate-800 hover:text-white transition-all"
         >
           Our Services
-        </Link>
+        </Link> */}
       </div>
       <div className="flex-1 hidden lg:block my-auto">
         <Image
