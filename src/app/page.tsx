@@ -56,9 +56,9 @@ export default function Home() {
           ))}
         </div>
       </div>
-      {/* <Slider/> */}
+      <Slider/>
       <About />
-      {/* <Saftey /> */}
+      <Saftey />
     </main>
   );
 }
