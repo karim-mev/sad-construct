@@ -7,7 +7,7 @@ import { Warning } from "./icons/Warning";
 
 export default function Saftey() {
   return (
-    <div className="flex flex-wrap bg-gray-100 text-[#1F1D8B]">
+    <div className="flex flex-wrap bg-gray-200 text-[#1F1D8B]">
       <div className="flex flex-col gap-4 w-full lg:w-1/2 px-10 py-20">
         <h1 className="text-5xl font-bold mb-4">Construction Safety:</h1>
         <div className="flex items-center gap-4">

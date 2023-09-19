@@ -43,7 +43,6 @@ export default function Home() {
           className="w-full h-screen"
         />
       </div>
-      <Saftey />
       <Growth />
       <div className="my-20">
         <h1 className="text-5xl font-bold text-center mb-14">Our Services</h1>
@@ -59,6 +58,7 @@ export default function Home() {
       </div>
       <Slider/>
       <About />
+      <Saftey />
     </main>
   );
 }
