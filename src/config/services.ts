@@ -96,10 +96,10 @@ export const servicesInfo = [
       {
         title: "",
         steps: [
-          "/civil/a1.jpg",
-          "/civil/a2.jpg",
-          "/civil/a3.jpg",
-          "/civil/a4.jpg",
+          // "/civil/a1.jpg",
+          // "/civil/a2.jpg",
+          // "/civil/a3.jpg",
+          // "/civil/a4.jpg",
           "/civil/a5.jpg",
           "/civil/a6.jpg",
           "/civil/a7.jpg",
@@ -120,7 +120,7 @@ export const servicesInfo = [
           "/civil/a22.jpg",
           "/civil/a23.jpg",
           "/civil/a24.jpg",
-          "/civil/a25.jpg",
+          // "/civil/a25.jpg",
           "/civil/a26.jpg",
           "/civil/a27.jpg",
           "/civil/a28.jpg",

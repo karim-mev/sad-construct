@@ -35,8 +35,8 @@ export default function Footer() {
       </div>
       <div className="flex flex-1 gap-6">
         <div className="flex items-center justify-end gap-6 flex-1">
-          <Snapchat />
-          <Instagram />
+          {/* <Snapchat />
+          <Instagram /> */}
           <Link href="mailto:projects@sadeemconst.com"><Mail /></Link>
         </div>
       </div>
