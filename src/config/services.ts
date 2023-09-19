@@ -28,7 +28,7 @@ export const info = [
   {
     id: "civil",
     src: "/civil-sec.jpg",
-    text: "Civil",
+    text: "Our civil work lays the foundation for every project we undertake. With precision and expertise, we prepare the ground, ensuring a stable base for construction. From excavation to grading, our team handles it all, guaranteeing that your project begins on solid footing. But our work doesn't stop there. We also specialize in the installation of essential utilities, including water supply, drainage, and sewage systems, to meet your project's needs comprehensively. At Sadeem, we understand that a strong foundation is the key to every successful construction venture.",
   },
 
   {
