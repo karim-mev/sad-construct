@@ -35,13 +35,13 @@ export default function Home() {
             <Image src="/ro2ya.png" alt="" width={400} height={400} />
           </div>
         </div>
-        <Image
+        {/* <Image
           src="/.jpg"
           alt=""
           width={1000}
           height={1000}
           className="w-full h-screen"
-        />
+        /> */}
       </div>
       <Growth />
       <div className="my-20">
