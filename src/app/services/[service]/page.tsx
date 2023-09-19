@@ -20,24 +20,37 @@ export default function Services({ params }: { params: { service: string } }) {
       </div>
       <div className="flex flex-col md:flex-row items-center md:justify-between gap-4 mb-20">
         <div className="w-full md:w-1/2">
-          <Image src={sth ? sth.src : ""} alt="service" width={500} height={500} />
+          <Image
+            src={sth ? sth.src : ""}
+            alt="service"
+            width={500}
+            height={500}
+          />
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-2">
           <h2 className="text-3xl font-extrabold">About Work</h2>
-          <p className="text-gray-600 font-medium leading-7">
-            {sth?.text}
-          </p>
+          <p className="text-gray-600 font-medium leading-7">{sth?.text}</p>
+          <Link
+            href={`https://sad-construct.vercel.app/services/sth/data/${params.service}`}
+            className="flex text-lg items-center gap-2"
+          >
+            <ReadMore />
+            Interested in our step process?{" "}
+            <span className="underline text-blue-500">Learn more</span>
+          </Link>
         </div>
       </div>
       <div className="flex flex-wrap justify-between">
         <div className="flex gap-2 items-center">
-          <Phone /> <p>Give us a call and we will take care of it for you!</p>
+          <Phone /> <p>Contact us and we will take care of it for you!</p>
         </div>
         <div className="flex gap-2 items-center">
           <ReadMore />
-          <Link href={`https://sad-construct.vercel.app/services/sth/data/${params.service}`}>
-            Interested in what we do?{" "}
-            <span className="underline text-blue-500">Learn more</span>
+          <Link
+            href="https://wa.me/+966570302102"
+          >
+            Give us a call{" "}
+            <span className="underline text-blue-500">+966 57 030 2102</span>
           </Link>
         </div>
       </div>

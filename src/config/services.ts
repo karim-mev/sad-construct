@@ -147,6 +147,12 @@ export const servicesInfo = [
           "/civil/a48.jpg",
           "/civil/a49.jpg",
           "/civil/a50.jpg",
+          "/civil/a51.jpg",
+          "/civil/a52.jpg",
+          "/civil/a53.jpg",
+          "/civil/a54.jpg",
+          "/civil/a55.jpg",
+          "/civil/a56.jpg",
         ],
       },
     ],
@@ -395,7 +401,7 @@ export const servicesInfo = [
       {
         title: "Drainage System",
         steps: [
-          "/mechanic/m.jpg",
+          // "/mechanic/m.jpg",
           "/mechanic/m2.jpg",
           "/mechanic/m3.jpg",
           "/mechanic/m4.jpg",

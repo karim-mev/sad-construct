@@ -16,8 +16,8 @@ export default function Home() {
         <div className="absolute bg- bg-opacity-30 flex flex-wrap items- justify-between gap-5 px-10 md:px-40 w-full h-full">
           {" "}
           <div className="flex flex-col items-start justify-center gap-4">
-            <h1 className="text-3xl md:text-7xl text-[#1F1D8B] font-extrabold max-w-[30rem] !leading-snug">
-              YOU DREAM IT WE BUILD
+            <h1 className="text-3xl md:text-7xl text-[#1F1D8B] font-extrabold max-w-[15rem] md:max-w-[35rem] !leading-snug">
+              YOU DREAM IT WE BUILD IT
             </h1>
             <h3 className="text-lg font-medium text-[#1F1D8B]">
               Constructing your dream vision

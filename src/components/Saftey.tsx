@@ -26,7 +26,7 @@ export default function Saftey() {
         <div className="flex items-center gap-4">
           <Suit />
           <h4 className="font-light">
-            Wear <span className="font-bold text-orange-400">High Visibility Clothers</span> for easy to visible on construction site at night.
+            Wearing <span className="font-bold text-orange-400">High Visibility Clothers</span> for easy to visible on construction site at night.
           </h4>
         </div>
         <div className="flex items-center gap-4">
@@ -38,7 +38,7 @@ export default function Saftey() {
         <div className="flex items-center gap-4">
           <Warning className="text-red-600"/>
           <h4 className="font-light">
-            Followrs The <span className="text-red-600 font-bold">Construction Regulatory Sign</span>
+            Follows The <span className="text-red-600 font-bold">Construction Regulatory Sign</span>
           </h4>
         </div>
       </div>
