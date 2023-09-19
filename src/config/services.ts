@@ -87,6 +87,7 @@ export const companies = [
   "/companies/c34.jpg",
   "/companies/c35.jpg",
   "/companies/c36.jpg",
+  "/companies/c37.jpg",
 ];
 
 export const servicesInfo = [
@@ -271,6 +272,26 @@ export const servicesInfo = [
           "/structure/f53.jpg",
           "/structure/f54.jpg",
           "/structure/f55.jpg",
+        ],
+      },
+
+      {
+        title:
+          "Sliding Glass Door, Insulated Shutter Door - Misk Schools,  Dock Leveler + Dock Shelter + Industrial Door, Fire Rated Shutter Door, Garage Door",
+        steps: [
+          "/structure/f64.jpg",
+          "/structure/f65.jpg",
+          "/structure/f66.jpg",
+          "/structure/f66.jpg",
+          "/structure/f67.jpg",
+          "/structure/f68.jpg",
+          "/structure/f69.jpg",
+          "/structure/f70.jpg",
+          "/structure/f71.jpg",
+          "/structure/f72.jpg",
+          "/structure/f73.jpg",
+          "/structure/f74.jpg",
+          "/structure/f75.jpg",
         ],
       },
     ],

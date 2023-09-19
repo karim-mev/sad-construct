@@ -10,9 +10,9 @@ export default function Growth() {
         excellence.
       </h3>
       <div className="flex justify-between w-full">
-        <Stats num={"12"} name={"Projects"} />
+        <Stats num={"9"} name={"Projects"} />
         <Stats num={"18"} name={"Employees"} />
-        <Stats num={"10"} name={"Awards"} />
+        <Stats num={"1"} name={"Awards"} />
       </div>
     </div>
   );
