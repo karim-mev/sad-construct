@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="">
-      <div className="relative">
+      <div className="relative flex flex-col w-full h-screen">
         <div className="absolute bg- bg-opacity-30 flex flex-wrap items- justify-between gap-5 px-10 md:px-40 w-full h-full">
           {" "}
           <div className="flex flex-col items-start justify-center gap-4">
