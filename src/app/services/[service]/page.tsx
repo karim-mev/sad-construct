@@ -30,14 +30,16 @@ export default function Services({ params }: { params: { service: string } }) {
         <div className="w-full md:w-1/2 flex flex-col gap-2">
           <h2 className="text-3xl font-extrabold">About Work</h2>
           <p className="text-gray-600 font-medium leading-7">{sth?.text}</p>
-          <Link
-            href={`https://sad-construct.vercel.app/services/sth/data/${params.service}`}
-            className="flex text-lg items-center gap-2"
-          >
+          <div className="flex text-lg items-center gap-2">
             <ReadMore />
-            Interested in our step process?{" "}
-            <span className="underline text-blue-500">Learn more</span>
-          </Link>
+            Interested in our design process?{" "}
+            <Link
+              href={`https://sad-construct.vercel.app/services/sth/data/${params.service}`}
+              className="text-white text-lg bg-blue-500 hover:bg-blue-400 px-4 py-2 rounded-xl shadow-xl shadow-blue-100"
+            >
+              Learn more
+            </Link>
+          </div>
         </div>
       </div>
       <div className="flex flex-wrap justify-between">
@@ -46,9 +48,7 @@ export default function Services({ params }: { params: { service: string } }) {
         </div>
         <div className="flex gap-2 items-center">
           <ReadMore />
-          <Link
-            href="https://wa.me/+966570302102"
-          >
+          <Link href="https://wa.me/+966570302102">
             Give us a call{" "}
             <span className="underline text-blue-500">+966 57 030 2102</span>
           </Link>
