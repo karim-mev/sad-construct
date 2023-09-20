@@ -35,9 +35,9 @@ export default function Services({ params }: { params: { service: string } }) {
             Interested in our design process?{" "}
             <Link
               href={`https://sad-construct.vercel.app/services/sth/data/${params.service}`}
-              className="text-white text-lg bg-blue-500 hover:bg-blue-400 px-4 py-2 rounded-xl shadow-xl shadow-blue-100"
+              className="text-white text-lg bg-yellow-500 hover:bg-yellow-400 px-4 py-2 rounded-xl shadow-xl shadow-yellow-100"
             >
-              Learn more
+              Our Process
             </Link>
           </div>
         </div>
