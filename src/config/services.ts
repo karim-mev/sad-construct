@@ -164,7 +164,6 @@ export const servicesInfo = [
         title: "Flooring Tiles",
         steps: [
           "/structure/f.jpg",
-          "/structure/f2.jpg",
           "/structure/f3.jpg",
           "/structure/f4.jpg",
         ],
