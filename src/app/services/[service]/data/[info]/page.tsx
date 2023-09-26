@@ -1,7 +1,13 @@
 import { Arrow } from "@/components/icons/Arrow";
-import { servicesInfo } from "@/config/services";
+import { info, servicesInfo } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
+
+export async function generateStaticParams() {
+  return info.map((service) => ({
+    info: service.id,
+  }));
+}
 
 export default async function Info({ params }: { params: { info: string } }) {
   const sth = servicesInfo.find((service) => service.id == params.info);
@@ -19,28 +25,31 @@ export default async function Info({ params }: { params: { info: string } }) {
         Step by step process
       </h1>
       <div className="">
-      {sth?.info.map((content: any, index) => (
-        <div key={index} className="">
-          {" "}
-          {/* Wrap the content in a <div> */}
-          <h2 className="text-3xl font-semibold text-center my-10">
-            {content.title}
-          </h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            {content.steps?.map((step: any) => (
-              <div key={step} className="max-w-[20rem] h-[20rem] aspect-square">
-                <Image
-                  src={step}
-                  alt=""
-                  loading="lazy"
-                  fill
-                  className="!relative object-cover"
-                />
-              </div>
-            ))}
+        {sth?.info.map((content) => (
+          <div key={content.title} className="">
+            {" "}
+            {/* Wrap the content in a <div> */}
+            <h2 className="text-3xl font-semibold text-center my-10">
+              {content.title}
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              {content.steps?.map((step) => (
+                <div
+                  key={step}
+                  className="max-w-[20rem] h-[20rem] aspect-square"
+                >
+                  <Image
+                    src={step}
+                    alt=""
+                    loading="lazy"
+                    fill
+                    className="!relative object-cover"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
       </div>
     </div>
   );

@@ -1,9 +1,16 @@
 import { Arrow } from "@/components/icons/Arrow";
 import { ReadMore } from "@/components/icons/Location";
 import { Phone } from "@/components/icons/Phone";
-import { info } from "@/config/services";
+import { info, servicesInfo } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
+
+export async function generateStaticParams() {
+ 
+  return info.map((service) => ({
+    service: service.id,
+  }))
+}
 
 export default function Services({ params }: { params: { service: string } }) {
   const sth = info.find((service) => service.id == params.service);
@@ -34,7 +41,7 @@ export default function Services({ params }: { params: { service: string } }) {
             <ReadMore />
             Interested in our design process?{" "}
             <Link
-              href={`https://sadeemconst.com/services/sth/data/${params.service}`}
+              href={`sth/data/${params.service}`}
               className="text-[#e9ce60] font-semibold text-lg bg-black hover:bg-neutral-900 px-4 py-2 rounded-xl shadow-xl shadow-"
             >
               Our Process

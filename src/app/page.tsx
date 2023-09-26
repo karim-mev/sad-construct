@@ -46,7 +46,7 @@ export default function Home() {
       <Growth />
       <div className="my-20">
         <h1 className="text-5xl font-bold text-center mb-14">Our Services</h1>
-        <div className="flex flex-wrap justify-center gap-6 px-20">
+        <div className="flex flex-wrap justify-center gap-6 sm:px-20">
           {services.map((service) => (
             <ServiceCard
               key={service.id}
