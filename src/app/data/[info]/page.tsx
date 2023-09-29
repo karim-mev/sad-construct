@@ -3,14 +3,17 @@ import { info, servicesInfo } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  return info.map((service) => ({
-    info: service.id,
+  return servicesInfo.map((info) => ({
+    info: info.id,
   }));
 }
 
 export default async function Info({ params }: { params: { info: string } }) {
   const sth = servicesInfo.find((service) => service.id == params.info);
+
   return (
     <div className="min-h-screen px-4 lg:px-20 py-20 lg:py-32">
       <div className="mb-10">

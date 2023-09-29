@@ -5,6 +5,8 @@ import { info, servicesInfo } from "@/config/services";
 import Image from "next/image";
 import Link from "next/link";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
  
   return info.map((service) => ({
@@ -41,7 +43,7 @@ export default function Services({ params }: { params: { service: string } }) {
             <ReadMore />
             Interested in our design process?{" "}
             <Link
-              href={`sth/data/${params.service}`}
+              href={`/data/${params.service}`}
               className="text-[#e9ce60] font-semibold text-lg bg-black hover:bg-neutral-900 px-4 py-2 rounded-xl shadow-xl shadow-"
             >
               Our Process
